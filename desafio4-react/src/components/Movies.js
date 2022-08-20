@@ -1,10 +1,9 @@
 import React from 'react';
 
-export default class App extends React.Component {
+export default class Movies extends React.Component {
   render(){
     return(
       <>
-      <h1>Hello word</h1>
       </>
     )
   }
