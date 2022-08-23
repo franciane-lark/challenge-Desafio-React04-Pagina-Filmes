@@ -1,6 +1,18 @@
 import React from 'react';
 import axios from 'axios';
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle `
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: pink;
+  border: 4px solid black;
+}
+`
 
 const MyApi = axios.create ({
   baseURL: 'https://api.themoviedb.org/3/movie/popular?api_key=013f3ed7712c1d13c2b965b97a8cfa5b&language=pt-BR'

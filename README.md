@@ -14,6 +14,8 @@
 
 - npm install styled-components
 
+- npm install react-scripts --save-dev <!--It's better to add this in dev dependencies using this command-->
+
 2. Criação de estrutura básica para renderização:
 
 import React from 'react';
